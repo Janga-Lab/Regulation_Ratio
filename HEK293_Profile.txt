@@ -1,4 +1,4 @@
-Hek293_Tot_Tot					 17405
+HEK293_Profile					 17405
 Predominantly Post-Transcriptional    8549
 Predominantly Transcriptional         7138
 Balanced                              1718
