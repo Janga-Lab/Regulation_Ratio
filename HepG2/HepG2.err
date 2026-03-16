@@ -1,0 +1,178 @@
+HepG2					 14648
+Predominantly Transcriptional         8398
+Predominantly Post-Transcriptional    5044
+Balanced                              1206
+Name: Gene Regulation Group, dtype: int64
+Trx vs Post 0.39612990180369395
+Post vs Trx 2.524424426044868
+            Transcript type               Gene Regulation Group
+5                    lncRNA       Predominantly Transcriptional
+55                   lncRNA  Predominantly Post-Transcriptional
+30                   lncRNA                            Balanced
+76                    miRNA  Predominantly Post-Transcriptional
+75                    miRNA       Predominantly Transcriptional
+37                    miRNA                            Balanced
+80                 misc RNA  Predominantly Post-Transcriptional
+79                 misc RNA       Predominantly Transcriptional
+42                 misc RNA                            Balanced
+52  nonsense mediated decay  Predominantly Post-Transcriptional
+2   nonsense mediated decay       Predominantly Transcriptional
+27  nonsense mediated decay                            Balanced
+77     processed pseudogene       Predominantly Transcriptional
+78     processed pseudogene  Predominantly Post-Transcriptional
+39     processed pseudogene                            Balanced
+73     processed transcript  Predominantly Post-Transcriptional
+23     processed transcript       Predominantly Transcriptional
+48     processed transcript                            Balanced
+31           protein coding                            Balanced
+56           protein coding  Predominantly Post-Transcriptional
+6            protein coding       Predominantly Transcriptional
+49          retained intron                            Balanced
+24          retained intron       Predominantly Transcriptional
+74          retained intron  Predominantly Post-Transcriptional
+            Transcript type        P-Value
+5                    lncRNA   0.000000e+00
+55                   lncRNA   0.000000e+00
+30                   lncRNA   5.508348e-51
+76                    miRNA   1.000000e+00
+75                    miRNA   1.000000e+00
+37                    miRNA   7.459611e-34
+80                 misc RNA   1.000000e+00
+79                 misc RNA   1.000000e+00
+42                 misc RNA   1.448892e-01
+52  nonsense mediated decay  1.231103e-251
+2   nonsense mediated decay  2.074545e-241
+27  nonsense mediated decay   8.245261e-21
+77     processed pseudogene   1.000000e+00
+78     processed pseudogene   1.000000e+00
+39     processed pseudogene   2.593943e-01
+73     processed transcript  2.909884e-189
+23     processed transcript   0.000000e+00
+48     processed transcript   1.787523e-10
+31           protein coding   1.049133e-05
+56           protein coding   5.357801e-02
+6            protein coding   6.796744e-13
+49          retained intron   1.558664e-05
+24          retained intron  9.384387e-139
+74          retained intron  1.350192e-146
+            Transcript type  ... Significance
+5                    lncRNA  ...        *****
+75                    miRNA  ...             
+79                 misc RNA  ...             
+2   nonsense mediated decay  ...        *****
+77     processed pseudogene  ...             
+23     processed transcript  ...        *****
+6            protein coding  ...          ***
+24          retained intron  ...        *****
+
+[8 rows x 6 columns]
+            Transcript type Gene Regulation Group  ...  Odds Ratio  Significance
+30                   lncRNA              Balanced  ...    0.379261          ****
+37                    miRNA              Balanced  ...    5.458460           ***
+42                 misc RNA              Balanced  ...    1.331966              
+27  nonsense mediated decay              Balanced  ...    1.844426           ***
+39     processed pseudogene              Balanced  ...    0.872078              
+48     processed transcript              Balanced  ...    1.446788            **
+31           protein coding              Balanced  ...    0.821215             *
+49          retained intron              Balanced  ...    1.283301             *
+
+[8 rows x 6 columns]
+            Transcript type  ... Significance
+55                   lncRNA  ...        *****
+76                    miRNA  ...             
+80                 misc RNA  ...             
+52  nonsense mediated decay  ...        *****
+78     processed pseudogene  ...             
+73     processed transcript  ...        *****
+56           protein coding  ...             
+74          retained intron  ...        *****
+
+[8 rows x 6 columns]
+Gene Regulation Group
+Balanced                              10278.0
+Predominantly Post-Transcriptional    28732.5
+Predominantly Transcriptional         53949.5
+Name: Gene Length, dtype: float64
+p-value annotation legend:
+: 5.00e-02 < p <= 1.00e+00
+*: 1.00e-05 < p <= 5.00e-02
+**: 1.00e-10 < p <= 1.00e-05
+***: 1.00e-50 < p <= 1.00e-10
+****: 1.00e-100 < p <= 1.00e-50
+*****: p <= 1.00e-100
+
+Predominantly Transcriptional v.s. Balanced: Mann-Whitney-Wilcoxon test two-sided with Bonferroni correction, P_val=5.684e-214 U_stat=7.878e+06
+Balanced v.s. Predominantly Post-Transcriptional: Mann-Whitney-Wilcoxon test two-sided with Bonferroni correction, P_val=1.551e-96 U_stat=1.865e+06
+Predominantly Transcriptional v.s. Predominantly Post-Transcriptional: Mann-Whitney-Wilcoxon test two-sided with Bonferroni correction, P_val=1.230e-144 U_stat=2.677e+07
+MannwhitneyuResult(statistic=7878114.0, pvalue=1.8947453582328443e-214)
+Effect Size: (0.5557115588999513, 'large')
+MannwhitneyuResult(statistic=1864937.5, pvalue=5.168705839418319e-97)
+Effect Size: (-0.3868427161049103, 'medium')
+MannwhitneyuResult(statistic=26767554.0, pvalue=4.099553514583111e-145)
+Effect Size: (0.2638273075478301, 'small')
+Gene Regulation Group
+Balanced                              3
+Predominantly Post-Transcriptional    7
+Predominantly Transcriptional         6
+Name: Isoform Count, dtype: int64
+p-value annotation legend:
+: 5.00e-02 < p <= 1.00e+00
+*: 1.00e-05 < p <= 5.00e-02
+**: 1.00e-10 < p <= 1.00e-05
+***: 1.00e-50 < p <= 1.00e-10
+****: 1.00e-100 < p <= 1.00e-50
+*****: p <= 1.00e-100
+
+Predominantly Transcriptional v.s. Balanced: Mann-Whitney-Wilcoxon test two-sided with Bonferroni correction, P_val=2.442e-69 U_stat=6.649e+06
+Balanced v.s. Predominantly Post-Transcriptional: Mann-Whitney-Wilcoxon test two-sided with Bonferroni correction, P_val=3.831e-94 U_stat=1.883e+06
+Predominantly Transcriptional v.s. Predominantly Post-Transcriptional: Mann-Whitney-Wilcoxon test two-sided with Bonferroni correction, P_val=5.464e-13 U_stat=1.958e+07
+MannwhitneyuResult(statistic=6648943.0, pvalue=8.139463766397606e-70)
+Effect Size: (0.312983980628729, 'small')
+MannwhitneyuResult(statistic=1883163.0, pvalue=1.2771267043423755e-94)
+Effect Size: (-0.3808505056004671, 'medium')
+MannwhitneyuResult(statistic=19579932.0, pvalue=1.821221586930377e-13)
+Effect Size: (-0.0755355255273007, 'negligible')
+Gene Regulation Group
+Balanced                               97.0
+Predominantly Post-Transcriptional    650.5
+Predominantly Transcriptional         173.0
+Name: Transcript Abundance, dtype: float64
+p-value annotation legend:
+: 5.00e-02 < p <= 1.00e+00
+*: 1.00e-05 < p <= 5.00e-02
+**: 1.00e-10 < p <= 1.00e-05
+***: 1.00e-50 < p <= 1.00e-10
+****: 1.00e-100 < p <= 1.00e-50
+*****: p <= 1.00e-100
+
+Predominantly Transcriptional v.s. Balanced: Mann-Whitney-Wilcoxon test two-sided with Bonferroni correction, P_val=2.700e-05 U_stat=3.599e+06
+Balanced v.s. Predominantly Post-Transcriptional: Mann-Whitney-Wilcoxon test two-sided with Bonferroni correction, P_val=4.711e-99 U_stat=1.247e+06
+Predominantly Transcriptional v.s. Predominantly Post-Transcriptional: Mann-Whitney-Wilcoxon test two-sided with Bonferroni correction, P_val=1.375e-200 U_stat=1.166e+07
+MannwhitneyuResult(statistic=5809219.5, pvalue=1.0936369226798708e-16)
+Effect Size: (0.1471616080113839, 'small')
+MannwhitneyuResult(statistic=1479805.5, pvalue=1.7001645303522545e-169)
+Effect Size: (-0.5134670619937584, 'large')
+MannwhitneyuResult(statistic=13366894.0, pvalue=4.420505428493849e-282)
+Effect Size: (-0.3688834753337102, 'medium')
+Gene Regulation Group
+Balanced                              0.926184
+Predominantly Post-Transcriptional    0.924050
+Predominantly Transcriptional         0.932864
+Name: Protein Expression, dtype: float64
+p-value annotation legend:
+: 5.00e-02 < p <= 1.00e+00
+*: 1.00e-05 < p <= 5.00e-02
+**: 1.00e-10 < p <= 1.00e-05
+***: 1.00e-50 < p <= 1.00e-10
+****: 1.00e-100 < p <= 1.00e-50
+*****: p <= 1.00e-100
+
+Predominantly Transcriptional v.s. Balanced: Mann-Whitney-Wilcoxon test two-sided with Bonferroni correction, P_val=1.000e+00 U_stat=4.177e+05
+Balanced v.s. Predominantly Post-Transcriptional: Mann-Whitney-Wilcoxon test two-sided with Bonferroni correction, P_val=1.000e+00 U_stat=4.383e+05
+Predominantly Transcriptional v.s. Predominantly Post-Transcriptional: Mann-Whitney-Wilcoxon test two-sided with Bonferroni correction, P_val=5.852e-01 U_stat=4.018e+06
+MannwhitneyuResult(statistic=nan, pvalue=nan)
+Effect Size: (-1.0, 'large')
+MannwhitneyuResult(statistic=nan, pvalue=nan)
+Effect Size: (-0.9984241494089163, 'large')
+MannwhitneyuResult(statistic=nan, pvalue=nan)
+Effect Size: (-0.9984152791939623, 'large')
