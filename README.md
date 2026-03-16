@@ -108,7 +108,7 @@ python Regulation_Count.py HEK293 HEK293_ATAC_peaks.bed HEK293_POP_peaks.bed \
     --prot_file DepMap_Proteomics.csv
 ```
 
-**Output:** A CSV file named `<cell_type>_Piranha_Profile.csv` (or `<cell_type>_Piranha_Profile_<upstream>.csv` if `--upstream` is specified), containing per-gene regulatory metrics and group classifications.
+**Output:** A CSV file named `<cell_type>_Regulation_Profile.csv` (or `<cell_type>_Regulation_<upstream>.csv` if `--upstream` is specified), containing per-gene regulatory metrics and group classifications.
 
 **Peak file format:** Tab-separated with at least three columns — chromosome, peak start, and peak end (no `chr` prefix in the chromosome column). This matches standard output from MACS3 (ATAC-seq) and Piranha (POP-seq).
 
