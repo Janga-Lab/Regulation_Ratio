@@ -352,9 +352,9 @@ def Make_Profile(cell_type, atac_file, pop_file, iso_file = None, rna_file = Non
 
     comm_index = comm_index.drop_duplicates()
     if (arg_Vals.upstream != None):
-        comm_index.to_csv(cell_type + "_Piranha_Profile_" + str(arg_Vals.upstream) + ".csv")
+        comm_index.to_csv(cell_type + "_Regulation_Profile_" + str(arg_Vals.upstream) + ".csv")
     else:
-        comm_index.to_csv(cell_type + "_Piranha_Profile.csv")
+        comm_index.to_csv(cell_type + "_Regulation_Profile.csv")
 
 # Parse command line arguments
 arg_Parser = argparse.ArgumentParser()
@@ -371,33 +371,3 @@ arg_Vals = arg_Parser.parse_args()
 
 # Call the Make_Profile function with command line arguments
 Make_Profile(arg_Vals.cell_type, arg_Vals.atac_file, arg_Vals.pop_file, iso_file = arg_Vals.iso_file, rna_file = arg_Vals.rna_file, prot_file = arg_Vals.prot_file)
-
-'''
-prot_index = Get_Protein_Index('DepMap_Proteomics.csv', 'HepG2')
-
-test_index = pd.read_csv('HepG2_Tot_Tot_Piranha_Profile.csv', index_col = 0)
-test_index = test_index.drop('Protein Expression', axis = 1)
-
-test_index = test_index.merge(prot_index, on='Gene Name')
-test_index.to_csv('HepG2_Tot_Tot_Piranha_Profile.csv')
-
-hmm_index = pd.read_csv('HepG2_Tot_Tot_HMM_Piranha_Profile.csv', index_col = 0)
-hmm_index = hmm_index.drop('Protein Expression', axis = 1)
-
-hmm_index = hmm_index.merge(prot_index, on='Gene Name')
-hmm_index.to_csv('HepG2_Tot_Tot_HMM_Piranha_Profile.csv')
-
-prot_index = Get_Protein_Index('DepMap_Proteomics.csv', 'K562')
-
-test_index = pd.read_csv('K562_Tot_Tot_Piranha_Profile.csv', index_col = 0)
-test_index = test_index.drop('Protein Expression', axis = 1)
-
-test_index = test_index.merge(prot_index, on='Gene Name')
-test_index.to_csv('K562_Tot_Tot_Piranha_Profile.csv')
-
-hmm_index = pd.read_csv('K562_Tot_Tot_HMM_Piranha_Profile.csv', index_col = 0)
-hmm_index = hmm_index.drop('Protein Expression', axis = 1)
-
-hmm_index = hmm_index.merge(prot_index, on='Gene Name')
-hmm_index.to_csv('K562_Tot_Tot_HMM_Piranha_Profile.csv')
-'''
