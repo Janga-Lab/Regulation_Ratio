@@ -1,0 +1,59 @@
+,Gene Regulation Group,Transcript type,P-Value,Odds Ratio,Significance
+0,Balanced,protein_coding,1.0491325082012905e-05,0.8212149813457751,*
+1,Balanced,processed_transcript,1.7875231876409096e-10,1.4467875862813566,**
+2,Balanced,retained_intron,1.5586636547056266e-05,1.283301162645543,*
+3,Balanced,nonsense_mediated_decay,8.245260868837252e-21,1.8444256384660835,***
+4,Balanced,lncRNA,5.508348483267383e-51,0.3792608735093915,****
+5,Balanced,miRNA,7.459611027425324e-34,5.458459777071765,***
+6,Balanced,processed_pseudogene,0.25939431407626223,0.8720781421890045,
+7,Balanced,misc_RNA,0.1448891810389912,1.3319661741635185,
+8,Balanced,snoRNA,0.004882313242990395,2.120865858346157,*
+9,Balanced,transcribed_unprocessed_pseudogene,0.04894260069146928,1.678144204808062,*
+10,Balanced,snRNA,0.2261890257912165,0.684044271048196,
+11,Balanced,rRNA_pseudogene,0.08719672199169345,1.84927369456389,
+12,Balanced,transcribed_processed_pseudogene,0.3531189625833384,1.4426828622242405,
+13,Balanced,unprocessed_pseudogene,3.618399222009746e-06,0.24547230905928466,**
+14,Balanced,transcribed_unitary_pseudogene,0.00283728592339829,4.476811082751319,*
+15,Balanced,non_stop_decay,0.017749336659482712,4.159716980412788,*
+16,Balanced,TEC,0.01682795559633085,0.2945785405442132,*
+17,Balanced,Mt_rRNA,0.0004160348091017813,118.49761181068172,*
+18,Balanced,Mt_tRNA,0.1758937633436092,5.3835227272727275,
+19,Balanced,rRNA,0.4542831391862115,1.667834262519562,
+20,Balanced,protein_coding_LoF,0.6134959813643722,1.05712890625,
+21,Predominantly Post-Transcriptional,protein_coding,0.05357800726246538,0.9643581098646551,
+22,Predominantly Post-Transcriptional,retained_intron,1.3501923478870592e-146,1.8085671305138002,*****
+23,Predominantly Post-Transcriptional,processed_transcript,2.9098841384516597e-189,1.9767645451293006,*****
+24,Predominantly Post-Transcriptional,nonsense_mediated_decay,1.2311030606663373e-251,2.43114565952375,*****
+25,Predominantly Post-Transcriptional,lncRNA,0.0,0.09628255571012566,*****
+26,Predominantly Post-Transcriptional,processed_pseudogene,1.5231536093772638e-167,0.06873117203005073,*****
+27,Predominantly Post-Transcriptional,miRNA,2.1553457388560718e-14,0.3018174481514448,***
+28,Predominantly Post-Transcriptional,transcribed_unprocessed_pseudogene,4.020807827890925e-05,0.47766047886510465,*
+29,Predominantly Post-Transcriptional,TEC,3.6580487859586474e-09,0.3111592843374635,**
+30,Predominantly Post-Transcriptional,non_stop_decay,0.00010816492092608065,3.110722052512178,*
+31,Predominantly Post-Transcriptional,transcribed_unitary_pseudogene,0.5780607622012627,1.1798458554732842,
+32,Predominantly Post-Transcriptional,transcribed_processed_pseudogene,9.609008958914026e-05,0.3257554119386619,*
+33,Predominantly Post-Transcriptional,misc_RNA,3.040024092728426e-44,0.025753222695358943,***
+34,Predominantly Post-Transcriptional,snRNA,4.451751800690077e-39,0.019967836764353722,***
+35,Predominantly Post-Transcriptional,unprocessed_pseudogene,7.193143663975566e-65,0.01231057933346943,****
+36,Predominantly Post-Transcriptional,scaRNA,0.7331069878090779,0.40861678819545844,
+37,Predominantly Transcriptional,protein_coding,6.796744176721667e-13,0.8955509009678758,***
+38,Predominantly Transcriptional,processed_transcript,0.0,2.0777686043852133,*****
+39,Predominantly Transcriptional,retained_intron,9.384386603634325e-139,1.617274190229861,*****
+40,Predominantly Transcriptional,nonsense_mediated_decay,2.0745448669236847e-241,2.0896617152080332,*****
+41,Predominantly Transcriptional,lncRNA,0.0,0.2460110412428621,*****
+42,Predominantly Transcriptional,transcribed_unprocessed_pseudogene,2.7735953250692105e-06,1.5763278302649544,**
+43,Predominantly Transcriptional,miRNA,6.085315340998257e-10,0.5099136940380803,**
+44,Predominantly Transcriptional,processed_pseudogene,1.1944621918675896e-262,0.060077958311779665,*****
+45,Predominantly Transcriptional,non_stop_decay,1.2655577777269316e-14,4.976767460892501,***
+46,Predominantly Transcriptional,transcribed_unitary_pseudogene,8.022340147994506e-09,3.227243372374499,**
+47,Predominantly Transcriptional,unprocessed_pseudogene,1.1603441245473008e-63,0.13162929893864272,****
+48,Predominantly Transcriptional,TEC,3.050847383663557e-14,0.2907985289238372,***
+49,Predominantly Transcriptional,transcribed_processed_pseudogene,0.009877785142753417,0.6092981950390466,*
+50,Predominantly Transcriptional,snoRNA,1.0416248625329544e-13,0.25324667398370887,***
+51,Predominantly Transcriptional,misc_RNA,3.3577805940670074e-53,0.08892461280710687,****
+52,Predominantly Transcriptional,snRNA,9.711286608407323e-48,0.07755703686281218,***
+53,Predominantly Transcriptional,unitary_pseudogene,0.4491062887850482,0.6482768257396303,
+54,Predominantly Transcriptional,rRNA_pseudogene,1.6971769210034947e-12,0.0787287168810839,***
+55,Predominantly Transcriptional,scaRNA,0.5845901800690856,0.528814827304847,
+56,Predominantly Transcriptional,protein_coding_LoF,0.0248690316176094,0.24074577443906298,*
+57,Predominantly Transcriptional,translated_unprocessed_pseudogene,0.2488308682236955,4.495494605057244,
